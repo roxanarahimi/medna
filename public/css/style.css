@@ -1,0 +1,135 @@
+body, html {
+    max-width: 1535px;
+    margin: 0 auto;
+    scroll-behavior: smooth;
+    background-color: transparent;
+}
+
+body, html, footer, main {
+    font-family: "Comic Sans MS" !important;
+}
+
+* {
+    transition: all 0.3s ease !important;
+}
+
+body {
+
+    overflow-x: hidden;
+    margin: 0 auto;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    cursor: pointer !important;
+    background-color: gray !important;
+}
+
+
+/* Track */
+::-webkit-scrollbar-track {
+    /*box-shadow: inset 0 0 5px grery;*/
+    /*border-radius: 10px;*/
+    cursor: pointer !important;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: dimgray;
+    border-radius: 5px;
+    cursor: pointer !important;
+
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: darkgray;
+    cursor: pointer !important;
+
+}
+
+@media (max-width: 700px) {
+    ::-webkit-scrollbar {
+        width: 0 !important;
+        background: transparent !important;
+    }
+
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+        background: transparent !important;
+    }
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: transparent !important;
+    }
+}
+
+main {
+    width: 100%;
+    min-height: 500px;
+    background-image: linear-gradient(#FFE3BD, #FFE7C2);
+
+}
+
+footer {
+    width: 100%;
+    height: 520px;
+    background: url("/img/footer1.png") top right no-repeat;
+    background-size: 130%;
+    color: maroon;
+    /*background-color: #C34B25;*/
+    /*background-image: linear-gradient(#FFE7C2, #C34B25);*/
+
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.chocolate-color {
+    color: chocolate;
+}
+
+.maroon-color {
+    color: maroon !important;
+}
+
+.main-color {
+    color: #C34B25 !important;
+}
+
+.bg-main {
+    background-color: rgba(195, 75, 37, 0.72) !important;
+}
+
+.bg-chocolate {
+    background-color: rgba(247, 166, 67, 0.52);
+}
+
+.off-badge {
+    line-height: 50px;
+    width: 50px;
+    height: 50px;
+    background-color: #C34B25;
+    color: white;
+    border-radius: 0 5px 0 50%
+}
+
+.add-badge {
+    line-height: 40px;
+    width: 40px;
+    height: 40px;
+    background-color: #C34B25;
+    color: white;
+    border-radius: 0 50% 0 5px
+}
+.card-bg{
+    background-color: rgba(247,166,67,0.52)
+}
+.top-right-0{
+    top: 0px; right: 0px
+}
+.bottom-left-0{
+    bottom: 0px; left: 0px
+}
