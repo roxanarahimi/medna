@@ -6,7 +6,7 @@
     </div>
   </div>
   <div v-if="type==='tile'" class="row px-2 pb-5">
-    <div v-for="item in data" class="col-6 col-md-4 col-lg-4 col-xxl-2  mb-4">
+    <div v-for="item in data" class="col-6 col-md-4  mb-4">
       <div class="card w-100 border-0 h-100 card-bg">
         <div v-if="item.off!==0" class="position-absolute d-grid text-center top-right-0">
           <p class="m-0 align-self-center fw-bold off-badge">{{ item.off }}%</p>
@@ -53,8 +53,6 @@
 </template>
 
 <script>
-// @ is an alias to /src
-
 import {ref} from "vue";
 
 export default {
@@ -92,6 +90,6 @@ export default {
 </script>
 <style>
 img:not(.parallax>img){
-  border-radius: 100% !important;
+  border-radius: 500px !important;
 }
 </style>

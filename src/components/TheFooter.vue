@@ -1,7 +1,7 @@
 <template>
   <footer class="d-grid maroon-color">
     <div class="row text-start justify-content-center align-self-center pe-2">
-      <div class="col-3"></div>
+      <div class="col-1"></div>
       <div class="col-4 ps-3">
         <h4 class="text-center maroon-color">Medna Shop</h4>
         <p class="maroon-color" style="text-align: justify">
@@ -18,7 +18,7 @@
         <p class="maroon-color">recipes</p>
         <p class="maroon-color">customers</p>
       </div>
-      <div class="col-3 ">
+      <div class="col-4 ">
         <h4 class="text-center maroon-color">Contact Us</h4>
         <div class="d-flex">
           <i class="bi bi-telephone-fill me-3"></i>

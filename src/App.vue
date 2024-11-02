@@ -21,14 +21,15 @@ export default {
   name: 'PrintToPdf',
   methods: {
     pdf() {
-      const element = document.querySelector('#contentToPrint');  // Reference to the content to print
+      window.resizeTo(793,729);
+      const element = document.querySelector('html');
       const options = {
         margin: 0,
-        filename: 'document.pdf',
+        filename: 'Document.pdf',
         image: {type: 'jpg', quality: 1},
         html2canvas: {scale: 3},
         jsPDF: {
-          format: 'a2', orientation: 'portrait', compress: true
+          format: 'a4', orientation: 'portrait', compress: true
         },
 
       };
